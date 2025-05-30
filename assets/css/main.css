@@ -94,7 +94,7 @@ box-sizing: inherit;
 }
 
 body {
-	background: rgb(112, 2, 112);
+	background: rgb(68, 2, 68);
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3429,18 +3429,17 @@ pre code {
 #banner .container .content .reach {
     display: inline-block;
     background-color: white;
-    border-radius: 30px;
     padding: 0.5em 1.5em;
     transition: all 0.3s ease;
 }
 
 #banner .container .content .reach:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    /* box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3); */
 }
 
 #banner .container .content .reach a {
-    color: #6a0dad;
+    color:rgb(47, 4, 77);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1em;
@@ -3703,7 +3702,8 @@ body.is-preload #banner:after {
 
 
 	#main {
-		background-color: #2a2f4a;
+		/* background-color: #2a2f4a; */
+		background-color:rgb(34, 2, 49);
 	}
 
 		#main > * {
